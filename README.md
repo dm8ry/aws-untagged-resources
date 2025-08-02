@@ -17,10 +17,10 @@ python get_untagged_resources_per_region_excel.py
 ```
 Output: `output/untagged_resources_YYYYMMDD_HHMMSS.csv`
 
-### `advanced_analysis.py`
+### `untagged_resources_advanced_analysis.py`
 Analyze exported CSV data without external dependencies.
 ```bash
-python advanced_analysis.py
+python untagged_resources_advanced_analysis.py
 ```
 
 ## Setup
