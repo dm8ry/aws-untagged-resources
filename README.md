@@ -37,11 +37,13 @@ aws configure
 
 ## Required Permissions
 
+- `sts:GetCallerIdentity`
 - `ec2:DescribeInstances`
 - `ec2:DescribeVolumes`
 - `ec2:DescribeVpcs`
 - `ec2:DescribeSecurityGroups`
 - `ec2:DescribeSubnets`
+- `ec2:DescribeRegions`
 - `s3:ListAllMyBuckets`
 - `s3:GetBucketTagging`
 - `lambda:ListFunctions`
